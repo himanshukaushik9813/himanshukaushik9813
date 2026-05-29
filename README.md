@@ -6,8 +6,7 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/himanshukaushik)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://himanshukaushik.dev)
+[![LinkedIn](https://www.linkedin.com/in/himanshu-kaushik-590185329/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:himanshukaushik9813@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=himanshukaushik9813&color=00ff88&style=for-the-badge&label=PROFILE+VIEWS)

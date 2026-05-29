@@ -20,7 +20,7 @@
 ```javascript
 const himanshu = {
   role: "MERN Stack Developer",
-  location: "Delhi, India",
+  location: "bengaluru, India",
   currentFocus: "Building scalable full-stack apps & immersive UI experiences",
   passions: ["Code", "Design", "Problem Solving"],
   exploring: ["Modern Web", "AI", "Startup Products"],

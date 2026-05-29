@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Himanshu Kaushik Full Stack MERN Developer GitHub profile banner">
   <defs>
-    <radialGradient id="bgGlowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 80) rotate(25) scale(520 260)">
-      <stop stop-color="#1F6FEB" stop-opacity="0.32" />
-      <stop offset="0.56" stop-color="#0D1117" stop-opacity="0.05" />
+    <radialGradient id="bgGlowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 95) rotate(18) scale(560 270)">
+      <stop stop-color="#1F6FEB" stop-opacity="0.2" />
+      <stop offset="0.58" stop-color="#0D1117" stop-opacity="0.04" />
       <stop offset="1" stop-color="#0D1117" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="bgGlowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1115 160) rotate(-18) scale(460 300)">
-      <stop stop-color="#2FFFD2" stop-opacity="0.18" />
-      <stop offset="0.62" stop-color="#0D1117" stop-opacity="0.04" />
+    <radialGradient id="bgGlowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1160 165) rotate(-15) scale(420 260)">
+      <stop stop-color="#2FFFD2" stop-opacity="0.13" />
+      <stop offset="0.64" stop-color="#0D1117" stop-opacity="0.03" />
       <stop offset="1" stop-color="#0D1117" stop-opacity="0" />
     </radialGradient>
-    <linearGradient id="nameGradient" x1="82" y1="0" x2="568" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF" />
-      <stop offset="0.46" stop-color="#DDF4FF" />
-      <stop offset="1" stop-color="#58A6FF" />
-    </linearGradient>
     <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#58A6FF" stop-opacity="0.55" />
       <stop offset="0.55" stop-color="#2FFFD2" stop-opacity="0.2" />
       <stop offset="1" stop-color="#8957E5" stop-opacity="0.35" />
     </linearGradient>
     <linearGradient id="cardGlass" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#162033" stop-opacity="0.82" />
-      <stop offset="1" stop-color="#0B1220" stop-opacity="0.74" />
+      <stop stop-color="#18263A" stop-opacity="0.74" />
+      <stop offset="1" stop-color="#0B1220" stop-opacity="0.7" />
     </linearGradient>
     <linearGradient id="cardSheen" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#FFFFFF" stop-opacity="0.08" />
@@ -37,8 +32,8 @@
       <stop offset="1" stop-color="#7DF9FF" />
     </linearGradient>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" stroke="#58A6FF" stroke-opacity="0.08" stroke-width="1" />
-      <circle cx="0" cy="0" r="1" fill="#58A6FF" fill-opacity="0.18" />
+      <path d="M44 0H0V44" stroke="#58A6FF" stroke-opacity="0.045" stroke-width="1" />
+      <circle cx="0" cy="0" r="1" fill="#58A6FF" fill-opacity="0.08" />
     </pattern>
     <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="4" result="blur" />
@@ -64,385 +59,251 @@
       </feMerge>
     </filter>
     <style>
-      .name { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 58px; font-weight: 850; letter-spacing: 4px; }
-      .subtitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; font-weight: 760; letter-spacing: 2.6px; fill: #7DF9FF; }
-      .tagline { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 15px; font-weight: 540; fill: #C9D1D9; }
-      .eyebrow { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; font-weight: 700; letter-spacing: 3px; fill: #58A6FF; }
+      .name { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 58px; font-weight: 820; letter-spacing: 3.8px; fill: #F0F6FC; }
+      .subtitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; font-weight: 780; letter-spacing: 2.4px; fill: #7DF9FF; }
+      .tagline { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; font-weight: 540; fill: #C9D1D9; }
+      .eyebrow { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; font-weight: 700; letter-spacing: 2.6px; fill: #58A6FF; }
       .smallMono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; fill: #8B949E; }
       .code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; fill: #C9D1D9; }
       .codeGreen { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; fill: #3FB950; }
-      .codeBlue { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 12px; fill: #79C0FF; }
-      .cardTitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 17px; font-weight: 780; fill: #F0F6FC; }
-      .cardCopy { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; font-weight: 500; fill: #9FB6CC; }
-      .badgeText { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 9px; font-weight: 700; fill: #DDF4FF; }
-      .metricTiny { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 10px; fill: #8B949E; }
-      .deployTiny { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 10px; fill: #3FB950; }
-      .techText { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; font-weight: 800; }
-      .techTextLarge { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; font-weight: 850; }
-      .monitorTitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; font-weight: 800; fill: #F0F6FC; }
-      .monitorCopy { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 11px; fill: #8B949E; }
-      .snakeLabel { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 11px; fill: #58A6FF; opacity: 0.72; }
-      .metricLabel { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11px; font-weight: 700; fill: #8B949E; letter-spacing: 1.4px; }
-      .metricValue { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 21px; font-weight: 850; fill: #F0F6FC; }
+      .codeBlue { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 13px; fill: #79C0FF; }
+      .panelTitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 20px; font-weight: 820; fill: #F0F6FC; }
+      .panelSub { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 560; fill: #9FB6CC; }
+      .cardTitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; font-weight: 780; fill: #F0F6FC; }
+      .cardCopy { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 560; fill: #AEBFD0; }
+      .metricTiny { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 11px; fill: #9FB6CC; }
+      .deployTiny { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 700; fill: #3FB950; }
+      .techText { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 800; }
+      .techTextLarge { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 15px; font-weight: 850; }
+      .monitorTitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 17px; font-weight: 800; fill: #F0F6FC; }
+      .monitorCopy { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; fill: #9FB6CC; }
+      .metricLabel { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 11px; font-weight: 760; fill: #8B949E; letter-spacing: 1px; }
+      .metricValue { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 22px; font-weight: 850; fill: #F0F6FC; }
     </style>
   </defs>
 
   <rect width="1500" height="500" fill="#0D1117" />
   <rect width="1500" height="500" fill="url(#bgGlowA)" />
   <rect width="1500" height="500" fill="url(#bgGlowB)" />
-  <rect width="1500" height="500" fill="url(#grid)" opacity="0.68" />
-  <path d="M0 492 C290 390 442 538 704 445 C910 371 1075 495 1500 372 V500 H0Z" fill="#030712" opacity="0.48" />
+  <rect width="1500" height="500" fill="url(#grid)" opacity="0.5" />
+  <path d="M0 490 C300 420 520 476 790 430 C1010 392 1195 430 1500 350 V500 H0Z" fill="#030712" opacity="0.42" />
 
-  <g opacity="0.26">
-    <path d="M68 344 L242 244 L408 328 L554 205 L744 294 L924 174 L1110 252 L1290 138 L1470 218" stroke="#58A6FF" stroke-width="1.2" />
-    <path d="M74 318 L286 280 L450 356 L630 252 L816 326 L1030 219 L1216 266 L1420 186" stroke="#2FFFD2" stroke-width="1" opacity="0.6" />
-    <circle cx="92" cy="344" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="242" cy="244" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="408" cy="328" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="554" cy="205" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="744" cy="294" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="924" cy="174" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="1110" cy="252" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="1290" cy="138" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" /><circle cx="1470" cy="218" r="3.2" fill="#58A6FF" filter="url(#tinyGlow)" />
+  <g opacity="0.28">
+    <circle cx="35" cy="32" r="0.9" fill="#7DF9FF" opacity="0.16" /><circle cx="246" cy="121" r="1.2" fill="#58A6FF" opacity="0.24" /><circle cx="457" cy="210" r="1.6" fill="#2FFFD2" opacity="0.32" /><circle cx="668" cy="299" r="0.9" fill="#7DF9FF" opacity="0.40" /><circle cx="879" cy="38" r="1.2" fill="#58A6FF" opacity="0.16" /><circle cx="1090" cy="127" r="1.6" fill="#2FFFD2" opacity="0.24" /><circle cx="1301" cy="216" r="0.9" fill="#7DF9FF" opacity="0.32" /><circle cx="82" cy="305" r="1.2" fill="#58A6FF" opacity="0.40" /><circle cx="293" cy="44" r="1.6" fill="#2FFFD2" opacity="0.16" /><circle cx="504" cy="133" r="0.9" fill="#7DF9FF" opacity="0.24" /><circle cx="715" cy="222" r="1.2" fill="#58A6FF" opacity="0.32" /><circle cx="926" cy="311" r="1.6" fill="#2FFFD2" opacity="0.40" /><circle cx="1137" cy="50" r="0.9" fill="#7DF9FF" opacity="0.16" /><circle cx="1348" cy="139" r="1.2" fill="#58A6FF" opacity="0.24" /><circle cx="129" cy="228" r="1.6" fill="#2FFFD2" opacity="0.32" /><circle cx="340" cy="317" r="0.9" fill="#7DF9FF" opacity="0.40" /><circle cx="551" cy="56" r="1.2" fill="#58A6FF" opacity="0.16" /><circle cx="762" cy="145" r="1.6" fill="#2FFFD2" opacity="0.24" /><circle cx="973" cy="234" r="0.9" fill="#7DF9FF" opacity="0.32" /><circle cx="1184" cy="323" r="1.2" fill="#58A6FF" opacity="0.40" /><circle cx="1395" cy="62" r="1.6" fill="#2FFFD2" opacity="0.16" /><circle cx="176" cy="151" r="0.9" fill="#7DF9FF" opacity="0.24" /><circle cx="387" cy="240" r="1.2" fill="#58A6FF" opacity="0.32" /><circle cx="598" cy="329" r="1.6" fill="#2FFFD2" opacity="0.40" /><circle cx="809" cy="68" r="0.9" fill="#7DF9FF" opacity="0.16" /><circle cx="1020" cy="157" r="1.2" fill="#58A6FF" opacity="0.24" /><circle cx="1231" cy="246" r="1.6" fill="#2FFFD2" opacity="0.32" /><circle cx="1442" cy="335" r="0.9" fill="#7DF9FF" opacity="0.40" />
   </g>
 
-  <g opacity="0.42">
-    <circle cx="0" cy="24" r="0.8" fill="#7DF9FF" opacity="0.28" /><circle cx="197" cy="107" r="1.1" fill="#58A6FF" opacity="0.38" /><circle cx="394" cy="190" r="1.4" fill="#2FFFD2" opacity="0.48" /><circle cx="591" cy="273" r="1.8" fill="#7DF9FF" opacity="0.58" /><circle cx="788" cy="356" r="0.8" fill="#58A6FF" opacity="0.68" /><circle cx="985" cy="54" r="1.1" fill="#2FFFD2" opacity="0.28" /><circle cx="1182" cy="137" r="1.4" fill="#7DF9FF" opacity="0.38" /><circle cx="1379" cy="220" r="1.8" fill="#58A6FF" opacity="0.48" /><circle cx="86" cy="303" r="0.8" fill="#2FFFD2" opacity="0.58" /><circle cx="283" cy="386" r="1.1" fill="#7DF9FF" opacity="0.68" /><circle cx="480" cy="84" r="1.4" fill="#58A6FF" opacity="0.28" /><circle cx="677" cy="167" r="1.8" fill="#2FFFD2" opacity="0.38" /><circle cx="874" cy="250" r="0.8" fill="#7DF9FF" opacity="0.48" /><circle cx="1071" cy="333" r="1.1" fill="#58A6FF" opacity="0.58" /><circle cx="1268" cy="31" r="1.4" fill="#2FFFD2" opacity="0.68" /><circle cx="1465" cy="114" r="1.8" fill="#7DF9FF" opacity="0.28" /><circle cx="172" cy="197" r="0.8" fill="#58A6FF" opacity="0.38" /><circle cx="369" cy="280" r="1.1" fill="#2FFFD2" opacity="0.48" /><circle cx="566" cy="363" r="1.4" fill="#7DF9FF" opacity="0.58" /><circle cx="763" cy="61" r="1.8" fill="#58A6FF" opacity="0.68" /><circle cx="960" cy="144" r="0.8" fill="#2FFFD2" opacity="0.28" /><circle cx="1157" cy="227" r="1.1" fill="#7DF9FF" opacity="0.38" /><circle cx="1354" cy="310" r="1.4" fill="#58A6FF" opacity="0.48" /><circle cx="61" cy="393" r="1.8" fill="#2FFFD2" opacity="0.58" /><circle cx="258" cy="91" r="0.8" fill="#7DF9FF" opacity="0.68" /><circle cx="455" cy="174" r="1.1" fill="#58A6FF" opacity="0.28" /><circle cx="652" cy="257" r="1.4" fill="#2FFFD2" opacity="0.38" /><circle cx="849" cy="340" r="1.8" fill="#7DF9FF" opacity="0.48" /><circle cx="1046" cy="38" r="0.8" fill="#58A6FF" opacity="0.58" /><circle cx="1243" cy="121" r="1.1" fill="#2FFFD2" opacity="0.68" /><circle cx="1440" cy="204" r="1.4" fill="#7DF9FF" opacity="0.28" /><circle cx="147" cy="287" r="1.8" fill="#58A6FF" opacity="0.38" /><circle cx="344" cy="370" r="0.8" fill="#2FFFD2" opacity="0.48" /><circle cx="541" cy="68" r="1.1" fill="#7DF9FF" opacity="0.58" /><circle cx="738" cy="151" r="1.4" fill="#58A6FF" opacity="0.68" /><circle cx="935" cy="234" r="1.8" fill="#2FFFD2" opacity="0.28" /><circle cx="1132" cy="317" r="0.8" fill="#7DF9FF" opacity="0.38" /><circle cx="1329" cy="400" r="1.1" fill="#58A6FF" opacity="0.48" /><circle cx="36" cy="98" r="1.4" fill="#2FFFD2" opacity="0.58" /><circle cx="233" cy="181" r="1.8" fill="#7DF9FF" opacity="0.68" /><circle cx="430" cy="264" r="0.8" fill="#58A6FF" opacity="0.28" /><circle cx="627" cy="347" r="1.1" fill="#2FFFD2" opacity="0.38" /><circle cx="824" cy="45" r="1.4" fill="#7DF9FF" opacity="0.48" /><circle cx="1021" cy="128" r="1.8" fill="#58A6FF" opacity="0.58" /><circle cx="1218" cy="211" r="0.8" fill="#2FFFD2" opacity="0.68" /><circle cx="1415" cy="294" r="1.1" fill="#7DF9FF" opacity="0.28" /><circle cx="122" cy="377" r="1.4" fill="#58A6FF" opacity="0.38" /><circle cx="319" cy="75" r="1.8" fill="#2FFFD2" opacity="0.48" /><circle cx="516" cy="158" r="0.8" fill="#7DF9FF" opacity="0.58" /><circle cx="713" cy="241" r="1.1" fill="#58A6FF" opacity="0.68" /><circle cx="910" cy="324" r="1.4" fill="#2FFFD2" opacity="0.28" /><circle cx="1107" cy="407" r="1.8" fill="#7DF9FF" opacity="0.38" /><circle cx="1304" cy="105" r="0.8" fill="#58A6FF" opacity="0.48" /><circle cx="11" cy="188" r="1.1" fill="#2FFFD2" opacity="0.58" /><circle cx="208" cy="271" r="1.4" fill="#7DF9FF" opacity="0.68" /><circle cx="405" cy="354" r="1.8" fill="#58A6FF" opacity="0.28" /><circle cx="602" cy="52" r="0.8" fill="#2FFFD2" opacity="0.38" /><circle cx="799" cy="135" r="1.1" fill="#7DF9FF" opacity="0.48" /><circle cx="996" cy="218" r="1.4" fill="#58A6FF" opacity="0.58" /><circle cx="1193" cy="301" r="1.8" fill="#2FFFD2" opacity="0.68" /><circle cx="1390" cy="384" r="0.8" fill="#7DF9FF" opacity="0.28" /><circle cx="97" cy="82" r="1.1" fill="#58A6FF" opacity="0.38" /><circle cx="294" cy="165" r="1.4" fill="#2FFFD2" opacity="0.48" /><circle cx="491" cy="248" r="1.8" fill="#7DF9FF" opacity="0.58" /><circle cx="688" cy="331" r="0.8" fill="#58A6FF" opacity="0.68" /><circle cx="885" cy="29" r="1.1" fill="#2FFFD2" opacity="0.28" /><circle cx="1082" cy="112" r="1.4" fill="#7DF9FF" opacity="0.38" /><circle cx="1279" cy="195" r="1.8" fill="#58A6FF" opacity="0.48" /><circle cx="1476" cy="278" r="0.8" fill="#2FFFD2" opacity="0.58" /><circle cx="183" cy="361" r="1.1" fill="#7DF9FF" opacity="0.68" /><circle cx="380" cy="59" r="1.4" fill="#58A6FF" opacity="0.28" /><circle cx="577" cy="142" r="1.8" fill="#2FFFD2" opacity="0.38" /><circle cx="774" cy="225" r="0.8" fill="#7DF9FF" opacity="0.48" /><circle cx="971" cy="308" r="1.1" fill="#58A6FF" opacity="0.58" />
-  </g>
+  <g transform="translate(78 72)">
+    <text x="0" y="0" class="eyebrow">MERN / AI DASHBOARDS / PRODUCTION APPS</text>
+    <text x="0" y="78" class="name">HIMANSHU</text>
+    <text x="0" y="142" class="name">KAUSHIK</text>
+    <text x="2" y="192" class="subtitle">FULL STACK MERN DEVELOPER</text>
+    <text x="2" y="232" class="tagline">Building scalable applications</text>
+    <text x="2" y="257" class="tagline">Crafting modern experiences</text>
 
-  <g transform="translate(72 78)">
-    <text x="0" y="0" class="eyebrow">PUBLIC PROFILE AUDIT / MERN / AI / WEB3</text>
-    <text x="0" y="76" class="name" fill="none" stroke="#58A6FF" stroke-width="1.4" opacity="0.34">HIMANSHU</text>
-    <text x="0" y="139" class="name" fill="none" stroke="#58A6FF" stroke-width="1.4" opacity="0.34">KAUSHIK</text>
-    <text x="0" y="76" class="name" fill="#F0F6FC">HIMANSHU</text>
-    <text x="0" y="139" class="name" fill="#F0F6FC">KAUSHIK</text>
-    <text x="3" y="183" class="subtitle">FULL STACK MERN DEVELOPER</text>
-    <text x="3" y="218" class="tagline">Building Scalable Applications &#8226;</text>
-    <text x="3" y="240" class="tagline">Crafting Modern Experiences</text>
-
-    <g transform="translate(0 256)">
+    <g transform="translate(0 300)">
       
         <g transform="translate(0 0)">
-          <rect width="122" height="72" rx="18" fill="rgba(13,17,23,0.68)" stroke="rgba(88,166,255,0.24)" />
+          <rect width="112" height="68" rx="16" fill="rgba(13,17,23,0.72)" stroke="rgba(88,166,255,0.22)" />
           <text x="18" y="32" class="metricValue">4</text>
-          <text x="18" y="54" class="metricLabel">SHIPPED SYSTEMS</text>
+          <text x="18" y="54" class="metricLabel">SYSTEMS</text>
         </g>
-        <g transform="translate(142 0)">
-          <rect width="122" height="72" rx="18" fill="rgba(13,17,23,0.68)" stroke="rgba(88,166,255,0.24)" />
+        <g transform="translate(132 0)">
+          <rect width="112" height="68" rx="16" fill="rgba(13,17,23,0.72)" stroke="rgba(88,166,255,0.22)" />
           <text x="18" y="32" class="metricValue">51</text>
-          <text x="18" y="54" class="metricLabel">PUBLIC COMMITS</text>
+          <text x="18" y="54" class="metricLabel">COMMITS</text>
         </g>
-        <g transform="translate(284 0)">
-          <rect width="122" height="72" rx="18" fill="rgba(13,17,23,0.68)" stroke="rgba(88,166,255,0.24)" />
+        <g transform="translate(264 0)">
+          <rect width="112" height="68" rx="16" fill="rgba(13,17,23,0.72)" stroke="rgba(88,166,255,0.22)" />
           <text x="18" y="32" class="metricValue">32K</text>
-          <text x="18" y="54" class="metricLabel">CODE LINES</text>
+          <text x="18" y="54" class="metricLabel">LINES</text>
         </g>
     </g>
   </g>
 
-  <g transform="translate(468 38)">
-    <rect width="520" height="398" rx="28" fill="rgba(13,17,23,0.62)" stroke="url(#panelStroke)" stroke-width="1.4" filter="url(#softGlow)" />
-    <rect x="18" y="18" width="484" height="362" rx="22" fill="rgba(22,32,51,0.46)" stroke="rgba(255,255,255,0.08)" />
-    <g transform="translate(38 42)">
+  <g transform="translate(512 58)">
+    <rect width="520" height="392" rx="28" fill="rgba(13,17,23,0.68)" stroke="url(#panelStroke)" stroke-width="1.3" filter="url(#softGlow)" />
+    <rect x="18" y="18" width="484" height="356" rx="22" fill="rgba(22,32,51,0.34)" stroke="rgba(255,255,255,0.06)" />
+    <g transform="translate(38 44)">
       <circle cx="0" cy="0" r="5" fill="#FF5F57" />
       <circle cx="18" cy="0" r="5" fill="#FFBD2E" />
       <circle cx="36" cy="0" r="5" fill="#28C840" />
-      <text x="70" y="5" class="smallMono">live-engineering-console</text>
-      <text x="330" y="5" class="codeGreen">build passing</text>
+      <text x="70" y="6" class="smallMono">repo-audit.dashboard</text>
+      <text x="340" y="6" class="codeGreen">clean build</text>
     </g>
-
-    <g transform="translate(38 70)">
-      <rect width="210" height="112" rx="16" fill="rgba(1,4,9,0.72)" stroke="rgba(88,166,255,0.16)" />
-      <text x="18" y="28" class="codeBlue">const developer = {</text>
-      <text x="30" y="52" class="code">stack: ["React", "Node"],</text>
-      <text x="30" y="76" class="code">db: "MongoDB",</text>
-      <text x="30" y="100" class="codeGreen">ship: "production"</text>
-    </g>
-
-    <g transform="translate(268 70)">
-      <rect width="196" height="112" rx="16" fill="rgba(1,4,9,0.62)" stroke="rgba(47,255,210,0.14)" />
-      <text x="18" y="28" class="monitorTitle">API Flow</text>
-      <path d="M20 52 H70 L92 74 H150" stroke="#58A6FF" stroke-width="2" opacity="0.75" />
-      <circle cx="20" cy="52" r="5" fill="#58A6FF" />
-      <circle cx="92" cy="74" r="5" fill="#2FFFD2" />
-      <circle cx="150" cy="74" r="5" fill="#3FB950" />
-      <text x="18" y="100" class="monitorCopy">REST / WS / health checks</text>
-    </g>
-
+    <text x="38" y="92" class="panelTitle">Featured production systems</text>
+    <text x="38" y="116" class="panelSub">Actual public repositories ranked from the profile audit</text>
     
-    <g transform="translate(38 196)">
-      <rect width="218" height="104" rx="16" fill="url(#cardGlass)" stroke="rgba(95,211,255,0.22)" filter="url(#softGlow)" />
-      <rect x="1" y="1" width="216" height="102" rx="15" fill="url(#cardSheen)" opacity="0.7" />
-      <circle cx="18" cy="19" r="4" fill="#2fffd2" filter="url(#tinyGlow)" />
-      <text x="31" y="24" class="cardTitle">ShadowBook</text>
-      <text x="18" y="47" class="cardCopy">FHE DEX, escrow, proofs</text>
-      <g transform="translate(18 60)">
-        
-          <rect x="0" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="34" y="14" text-anchor="middle" class="badgeText">Next.js</text>
-          <rect x="76" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="110" y="14" text-anchor="middle" class="badgeText">Solidity</text>
-          <rect x="152" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="186" y="14" text-anchor="middle" class="badgeText">Hardhat</text>
-      </g>
-      <g transform="translate(18 79)">
-        <text x="0" y="0" class="metricTiny">stars 0</text>
-        <text x="66" y="0" class="metricTiny">15 commits</text>
-        <text x="151" y="0" class="deployTiny">deploy ok</text>
-      </g>
+    <g transform="translate(38 132)">
+      <rect width="444" height="54" rx="18" fill="url(#cardGlass)" stroke="#2FFFD2" stroke-opacity="0.34" />
+      <rect x="1" y="1" width="442" height="52" rx="17" fill="url(#cardSheen)" opacity="0.72" />
+      <circle cx="24" cy="25" r="5" fill="#2FFFD2" filter="url(#tinyGlow)" />
+      <text x="44" y="31" class="cardTitle">ShadowBook</text>
+      <text x="44" y="50" class="cardCopy">FHE DEX, escrow, proofs</text>
+      <text x="416" y="31" text-anchor="end" class="deployTiny">DEPLOYED</text>
+      <text x="416" y="50" text-anchor="end" class="metricTiny">15 commits</text>
     </g>
     
-    <g transform="translate(268 196)">
-      <rect width="218" height="104" rx="16" fill="url(#cardGlass)" stroke="rgba(95,211,255,0.22)" filter="url(#softGlow)" />
-      <rect x="1" y="1" width="216" height="102" rx="15" fill="url(#cardSheen)" opacity="0.7" />
-      <circle cx="18" cy="19" r="4" fill="#2fffd2" filter="url(#tinyGlow)" />
-      <text x="31" y="24" class="cardTitle">aviation-intelligence</text>
-      <text x="18" y="47" class="cardCopy">FastAPI ML risk engine</text>
-      <g transform="translate(18 60)">
-        
-          <rect x="0" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="34" y="14" text-anchor="middle" class="badgeText">Next.js 15</text>
-          <rect x="76" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="110" y="14" text-anchor="middle" class="badgeText">FastAPI</text>
-          <rect x="152" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="186" y="14" text-anchor="middle" class="badgeText">Python</text>
-      </g>
-      <g transform="translate(18 79)">
-        <text x="0" y="0" class="metricTiny">stars 0</text>
-        <text x="66" y="0" class="metricTiny">13 commits</text>
-        <text x="151" y="0" class="deployTiny">deploy ok</text>
-      </g>
+    <g transform="translate(38 194)">
+      <rect width="444" height="54" rx="18" fill="url(#cardGlass)" stroke="#58A6FF" stroke-opacity="0.34" />
+      <rect x="1" y="1" width="442" height="52" rx="17" fill="url(#cardSheen)" opacity="0.72" />
+      <circle cx="24" cy="25" r="5" fill="#58A6FF" filter="url(#tinyGlow)" />
+      <text x="44" y="31" class="cardTitle">aviation-intelligence</text>
+      <text x="44" y="50" class="cardCopy">FastAPI ML risk engine</text>
+      <text x="416" y="31" text-anchor="end" class="deployTiny">DEPLOYED</text>
+      <text x="416" y="50" text-anchor="end" class="metricTiny">13 commits</text>
     </g>
     
-    <g transform="translate(38 312)">
-      <rect width="218" height="104" rx="16" fill="url(#cardGlass)" stroke="rgba(95,211,255,0.22)" filter="url(#softGlow)" />
-      <rect x="1" y="1" width="216" height="102" rx="15" fill="url(#cardSheen)" opacity="0.7" />
-      <circle cx="18" cy="19" r="4" fill="#2fffd2" filter="url(#tinyGlow)" />
-      <text x="31" y="24" class="cardTitle">AeroSphere</text>
-      <text x="18" y="47" class="cardCopy">Weather + WebSocket dashboard</text>
-      <g transform="translate(18 60)">
-        
-          <rect x="0" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="34" y="14" text-anchor="middle" class="badgeText">Next.js</text>
-          <rect x="76" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="110" y="14" text-anchor="middle" class="badgeText">Express</text>
-          <rect x="152" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="186" y="14" text-anchor="middle" class="badgeText">WebSocket</text>
-      </g>
-      <g transform="translate(18 79)">
-        <text x="0" y="0" class="metricTiny">stars 0</text>
-        <text x="66" y="0" class="metricTiny">8 commits</text>
-        <text x="151" y="0" class="deployTiny">deploy ok</text>
-      </g>
+    <g transform="translate(38 256)">
+      <rect width="444" height="54" rx="18" fill="url(#cardGlass)" stroke="#7DF9FF" stroke-opacity="0.34" />
+      <rect x="1" y="1" width="442" height="52" rx="17" fill="url(#cardSheen)" opacity="0.72" />
+      <circle cx="24" cy="25" r="5" fill="#7DF9FF" filter="url(#tinyGlow)" />
+      <text x="44" y="31" class="cardTitle">AeroSphere</text>
+      <text x="44" y="50" class="cardCopy">Weather + WebSocket dashboard</text>
+      <text x="416" y="31" text-anchor="end" class="deployTiny">DEPLOYED</text>
+      <text x="416" y="50" text-anchor="end" class="metricTiny">8 commits</text>
     </g>
     
-    <g transform="translate(268 312)">
-      <rect width="218" height="104" rx="16" fill="url(#cardGlass)" stroke="rgba(95,211,255,0.22)" filter="url(#softGlow)" />
-      <rect x="1" y="1" width="216" height="102" rx="15" fill="url(#cardSheen)" opacity="0.7" />
-      <circle cx="18" cy="19" r="4" fill="#2fffd2" filter="url(#tinyGlow)" />
-      <text x="31" y="24" class="cardTitle">bloggblast</text>
-      <text x="18" y="47" class="cardCopy">MongoDB blog CMS + auth</text>
-      <g transform="translate(18 60)">
-        
-          <rect x="0" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="34" y="14" text-anchor="middle" class="badgeText">Next.js</text>
-          <rect x="76" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="110" y="14" text-anchor="middle" class="badgeText">Express</text>
-          <rect x="152" y="0" width="68" height="20" rx="10" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.25)" />
-          <text x="186" y="14" text-anchor="middle" class="badgeText">MongoDB</text>
-      </g>
-      <g transform="translate(18 79)">
-        <text x="0" y="0" class="metricTiny">stars 0</text>
-        <text x="66" y="0" class="metricTiny">15 commits</text>
-        <text x="151" y="0" class="deployTiny">deploy ok</text>
-      </g>
-    </g>
-
-    <g opacity="0.55">
-      <path d="M249 128 C290 116 320 118 356 126" stroke="#2FFFD2" stroke-width="1.4" stroke-dasharray="5 8" />
-      <path d="M250 262 C290 262 324 262 356 262" stroke="#58A6FF" stroke-width="1.4" stroke-dasharray="4 7" />
-      <path d="M146 183 V196" stroke="#58A6FF" stroke-width="1.2" stroke-dasharray="3 5" />
-      <path d="M376 183 V196" stroke="#2FFFD2" stroke-width="1.2" stroke-dasharray="3 5" />
+    <g transform="translate(38 318)">
+      <rect width="444" height="54" rx="18" fill="url(#cardGlass)" stroke="#3FB950" stroke-opacity="0.34" />
+      <rect x="1" y="1" width="442" height="52" rx="17" fill="url(#cardSheen)" opacity="0.72" />
+      <circle cx="24" cy="25" r="5" fill="#3FB950" filter="url(#tinyGlow)" />
+      <text x="44" y="31" class="cardTitle">bloggblast</text>
+      <text x="44" y="50" class="cardCopy">MongoDB blog CMS + auth</text>
+      <text x="416" y="31" text-anchor="end" class="deployTiny">DEPLOYED</text>
+      <text x="416" y="50" text-anchor="end" class="metricTiny">15 commits</text>
     </g>
   </g>
 
-  <g transform="translate(1028 52)">
-    <path d="M110 354 H344 L388 389 H64Z" fill="rgba(88,166,255,0.08)" stroke="rgba(88,166,255,0.22)" />
-    <rect x="78" y="86" width="255" height="165" rx="20" fill="rgba(13,17,23,0.76)" stroke="rgba(88,166,255,0.28)" filter="url(#softGlow)" />
-    <rect x="96" y="108" width="219" height="118" rx="13" fill="rgba(1,4,9,0.78)" />
-    <text x="116" y="137" class="monitorTitle">Holographic Stack</text>
-    <text x="116" y="166" class="monitorCopy">React UI -> Express API</text>
-    <text x="116" y="190" class="monitorCopy">MongoDB docs -> Vercel deploy</text>
-    <text x="116" y="214" class="codeGreen">production: success</text>
-    <rect x="28" y="144" width="128" height="92" rx="16" fill="rgba(13,17,23,0.74)" stroke="rgba(47,255,210,0.24)" />
-    <text x="48" y="176" class="monitorTitle">AI</text>
-    <path d="M51 197 C70 184 92 213 112 194" stroke="#2FFFD2" stroke-width="2" fill="none" />
-    <text x="48" y="219" class="monitorCopy">risk engine</text>
-    <rect x="272" y="126" width="142" height="102" rx="16" fill="rgba(13,17,23,0.74)" stroke="rgba(137,87,229,0.26)" />
-    <text x="292" y="160" class="monitorTitle">Cloud</text>
-    <text x="292" y="184" class="monitorCopy">Vercel</text>
-    <text x="292" y="206" class="monitorCopy">Render / AWS</text>
-    <path d="M205 252 V326" stroke="#58A6FF" stroke-width="7" stroke-linecap="round" opacity="0.28" />
-    <ellipse cx="205" cy="342" rx="90" ry="18" fill="#58A6FF" opacity="0.08" />
+  <g transform="translate(1084 78)">
+    <rect x="74" y="92" width="252" height="170" rx="24" fill="rgba(13,17,23,0.72)" stroke="rgba(88,166,255,0.24)" filter="url(#softGlow)" />
+    <text x="104" y="136" class="monitorTitle">MERN Stack Core</text>
+    <text x="104" y="168" class="monitorCopy">React UI + Node APIs</text>
+    <text x="104" y="194" class="monitorCopy">MongoDB data models</text>
+    <text x="104" y="220" class="codeGreen">deployments: passing</text>
 
-    <path d="M92 110 C100 55 152 34 210 50 C255 63 286 54 322 28" stroke="#58A6FF" opacity="0.42" stroke-width="2" fill="none" filter="url(#strongGlow)" />
-    <path d="M328 170 C390 163 424 117 438 72" stroke="#2FFFD2" opacity="0.32" stroke-width="2" fill="none" filter="url(#strongGlow)" />
-    <path d="M90 235 C54 264 42 303 56 348" stroke="#8957E5" opacity="0.32" stroke-width="2" fill="none" filter="url(#strongGlow)" />
-
+    <path d="M94 176 H44 M326 176 H362 M202 92 V46 M202 262 V304" stroke="#58A6FF" stroke-width="1.4" opacity="0.32" />
     
-    <g transform="translate(65 74)" filter="url(#softGlow)">
-      <circle r="44" fill="#61DAFB" opacity="0.06" />
-      <circle r="35" fill="rgba(13,17,23,0.82)" stroke="#61DAFB" stroke-width="1.5" />
-      <circle r="27" fill="#61DAFB" opacity="0.08" />
-      <text y="6" text-anchor="middle" class="techTextLarge" fill="#61DAFB">React</text>
+    <g transform="translate(28 176)">
+      <circle r="50" fill="#61DAFB" opacity="0.08" filter="url(#tinyGlow)" />
+      <circle r="38" fill="rgba(13,17,23,0.82)" stroke="#61DAFB" stroke-width="1.5" />
+      <circle r="30" fill="#61DAFB" opacity="0.08" />
+      <text y="7" text-anchor="middle" class="techTextLarge" fill="#61DAFB">React</text>
     </g>
     
-    <g transform="translate(216 32)" filter="url(#softGlow)">
-      <circle r="35" fill="#3FB950" opacity="0.06" />
-      <circle r="26" fill="rgba(13,17,23,0.82)" stroke="#3FB950" stroke-width="1.5" />
-      <circle r="18" fill="#3FB950" opacity="0.08" />
-      <text y="5" text-anchor="middle" class="techText" fill="#3FB950">Node</text>
+    <g transform="translate(202 38)">
+      <circle r="42" fill="#3FB950" opacity="0.08" filter="url(#tinyGlow)" />
+      <circle r="30" fill="rgba(13,17,23,0.82)" stroke="#3FB950" stroke-width="1.5" />
+      <circle r="22" fill="#3FB950" opacity="0.08" />
+      <text y="6" text-anchor="middle" class="techText" fill="#3FB950">Node</text>
     </g>
     
-    <g transform="translate(360 54)" filter="url(#softGlow)">
-      <circle r="35" fill="#2FFFD2" opacity="0.06" />
-      <circle r="26" fill="rgba(13,17,23,0.82)" stroke="#2FFFD2" stroke-width="1.5" />
-      <circle r="18" fill="#2FFFD2" opacity="0.08" />
-      <text y="5" text-anchor="middle" class="techText" fill="#2FFFD2">Mongo</text>
+    <g transform="translate(382 176)">
+      <circle r="42" fill="#79C0FF" opacity="0.08" filter="url(#tinyGlow)" />
+      <circle r="30" fill="rgba(13,17,23,0.82)" stroke="#79C0FF" stroke-width="1.5" />
+      <circle r="22" fill="#79C0FF" opacity="0.08" />
+      <text y="6" text-anchor="middle" class="techText" fill="#79C0FF">API</text>
     </g>
     
-    <g transform="translate(420 154)" filter="url(#softGlow)">
-      <circle r="35" fill="#79C0FF" opacity="0.06" />
-      <circle r="26" fill="rgba(13,17,23,0.82)" stroke="#79C0FF" stroke-width="1.5" />
-      <circle r="18" fill="#79C0FF" opacity="0.08" />
-      <text y="5" text-anchor="middle" class="techText" fill="#79C0FF">API</text>
+    <g transform="translate(202 322)">
+      <circle r="42" fill="#2FFFD2" opacity="0.08" filter="url(#tinyGlow)" />
+      <circle r="30" fill="rgba(13,17,23,0.82)" stroke="#2FFFD2" stroke-width="1.5" />
+      <circle r="22" fill="#2FFFD2" opacity="0.08" />
+      <text y="6" text-anchor="middle" class="techText" fill="#2FFFD2">Mongo</text>
     </g>
-    
-    <g transform="translate(334 274)" filter="url(#softGlow)">
-      <circle r="35" fill="#58A6FF" opacity="0.06" />
-      <circle r="26" fill="rgba(13,17,23,0.82)" stroke="#58A6FF" stroke-width="1.5" />
-      <circle r="18" fill="#58A6FF" opacity="0.08" />
-      <text y="5" text-anchor="middle" class="techText" fill="#58A6FF">Docker</text>
-    </g>
-    
-    <g transform="translate(92 306)" filter="url(#softGlow)">
-      <circle r="35" fill="#F0B84A" opacity="0.06" />
-      <circle r="26" fill="rgba(13,17,23,0.82)" stroke="#F0B84A" stroke-width="1.5" />
-      <circle r="18" fill="#F0B84A" opacity="0.08" />
-      <text y="5" text-anchor="middle" class="techText" fill="#F0B84A">AWS</text>
-    </g>
-  </g>
-
-  <g transform="translate(1140 342)" opacity="0.5">
-    <rect x="0" y="62" width="18" height="28" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="2" y="58" class="metricTiny">&lt;/&gt;</text><rect x="28" y="45" width="18" height="45" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="30" y="41" class="metricTiny">{}</text><rect x="56" y="28" width="18" height="62" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="58" y="24" class="metricTiny">&lt;/&gt;</text><rect x="84" y="11" width="18" height="79" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="86" y="7" class="metricTiny">{}</text><rect x="112" y="-6" width="18" height="96" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="114" y="-10" class="metricTiny">&lt;/&gt;</text><rect x="140" y="49" width="18" height="41" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="142" y="45" class="metricTiny">{}</text><rect x="168" y="32" width="18" height="58" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="170" y="28" class="metricTiny">&lt;/&gt;</text><rect x="196" y="15" width="18" height="75" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="198" y="11" class="metricTiny">{}</text><rect x="224" y="-2" width="18" height="92" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="226" y="-6" class="metricTiny">&lt;/&gt;</text><rect x="252" y="53" width="18" height="37" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="254" y="49" class="metricTiny">{}</text><rect x="280" y="36" width="18" height="54" fill="rgba(88,166,255,0.12)" stroke="rgba(88,166,255,0.16)" />
-          <text x="282" y="32" class="metricTiny">&lt;/&gt;</text>
   </g>
 
   
-    <g>
-      <path d="M96 449 C280 388 485 491 675 430 S1020 449 1344 431" fill="none" stroke="#58a6ff" stroke-width="3" opacity="0.18" filter="url(#strongGlow)" />
-      <path d="M95 449 H1012 C1042 449 1052 423 1082 423 H1348" fill="none" stroke="url(#snakeTrail)" stroke-width="13" stroke-linecap="round" opacity="0.28" filter="url(#strongGlow)" />
+    <g opacity="0.85">
+      <path d="M96 460 H945 C1010 460 1030 430 1094 430 H1348" fill="none" stroke="url(#snakeTrail)" stroke-width="7" stroke-linecap="round" opacity="0.16" filter="url(#strongGlow)" />
       
-        <rect x="93" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.22" filter="url(#tinyGlow)" />
-        <rect x="97" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="124" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.23" filter="url(#tinyGlow)" />
-        <rect x="128" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="155" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.25" filter="url(#tinyGlow)" />
-        <rect x="159" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="186" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.26" filter="url(#tinyGlow)" />
-        <rect x="190" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="217" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.28" filter="url(#tinyGlow)" />
-        <rect x="221" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="248" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.29" filter="url(#tinyGlow)" />
-        <rect x="252" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="279" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.30" filter="url(#tinyGlow)" />
-        <rect x="283" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="310" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.32" filter="url(#tinyGlow)" />
-        <rect x="314" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="341" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.33" filter="url(#tinyGlow)" />
-        <rect x="345" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="372" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.35" filter="url(#tinyGlow)" />
-        <rect x="376" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="403" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.36" filter="url(#tinyGlow)" />
-        <rect x="407" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="434" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.38" filter="url(#tinyGlow)" />
-        <rect x="438" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="465" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.39" filter="url(#tinyGlow)" />
-        <rect x="469" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="496" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.40" filter="url(#tinyGlow)" />
-        <rect x="500" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="527" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.42" filter="url(#tinyGlow)" />
-        <rect x="531" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="558" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.43" filter="url(#tinyGlow)" />
-        <rect x="562" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="589" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.45" filter="url(#tinyGlow)" />
-        <rect x="593" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="620" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.46" filter="url(#tinyGlow)" />
-        <rect x="624" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="651" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.47" filter="url(#tinyGlow)" />
-        <rect x="655" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="682" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.49" filter="url(#tinyGlow)" />
-        <rect x="686" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="713" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.50" filter="url(#tinyGlow)" />
-        <rect x="717" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="744" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.52" filter="url(#tinyGlow)" />
-        <rect x="748" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="775" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.53" filter="url(#tinyGlow)" />
-        <rect x="779" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="806" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.55" filter="url(#tinyGlow)" />
-        <rect x="810" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="837" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.56" filter="url(#tinyGlow)" />
-        <rect x="841" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="868" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.57" filter="url(#tinyGlow)" />
-        <rect x="872" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="899" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.59" filter="url(#tinyGlow)" />
-        <rect x="903" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="930" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.60" filter="url(#tinyGlow)" />
-        <rect x="934" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="961" y="439" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.62" filter="url(#tinyGlow)" />
-        <rect x="965" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="992" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.63" filter="url(#tinyGlow)" />
-        <rect x="996" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1023" y="439" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.64" filter="url(#tinyGlow)" />
-        <rect x="1027" y="443" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1054" y="421" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.66" filter="url(#tinyGlow)" />
-        <rect x="1058" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1085" y="421" width="19" height="19" rx="5" fill="#1f6feb" opacity="0.67" filter="url(#tinyGlow)" />
-        <rect x="1089" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1116" y="421" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.69" filter="url(#tinyGlow)" />
-        <rect x="1120" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1147" y="421" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.70" filter="url(#tinyGlow)" />
-        <rect x="1151" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1178" y="421" width="19" height="19" rx="5" fill="#22d3ee" opacity="0.72" filter="url(#tinyGlow)" />
-        <rect x="1182" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1209" y="421" width="19" height="19" rx="5" fill="#7df9ff" opacity="0.73" filter="url(#tinyGlow)" />
-        <rect x="1213" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1240" y="421" width="19" height="19" rx="5" fill="#7df9ff" opacity="0.74" filter="url(#tinyGlow)" />
-        <rect x="1244" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1271" y="421" width="19" height="19" rx="5" fill="#7df9ff" opacity="0.76" filter="url(#tinyGlow)" />
-        <rect x="1275" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1302" y="421" width="19" height="19" rx="5" fill="#7df9ff" opacity="0.77" filter="url(#tinyGlow)" />
-        <rect x="1306" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-        <rect x="1333" y="421" width="19" height="19" rx="5" fill="#7df9ff" opacity="0.79" filter="url(#tinyGlow)" />
-        <rect x="1337" y="425" width="11" height="11" rx="3" fill="#0D1117" opacity="0.18" />
-      <g transform="translate(1361 430)" filter="url(#strongGlow)">
-        <path d="M0 0 C15 -16 36 -10 46 4 C32 21 12 20 0 0Z" fill="#7df9ff" />
-        <circle cx="32" cy="0" r="2.4" fill="#0D1117" />
-        <circle cx="35" cy="8" r="2.4" fill="#0D1117" />
+        <rect x="92" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.12" filter="url(#tinyGlow)" />
+        <rect x="96" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="122" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.13" filter="url(#tinyGlow)" />
+        <rect x="126" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="152" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.13" filter="url(#tinyGlow)" />
+        <rect x="156" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="182" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.14" filter="url(#tinyGlow)" />
+        <rect x="186" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="212" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.14" filter="url(#tinyGlow)" />
+        <rect x="216" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="242" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.15" filter="url(#tinyGlow)" />
+        <rect x="246" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="272" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.15" filter="url(#tinyGlow)" />
+        <rect x="276" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="302" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.16" filter="url(#tinyGlow)" />
+        <rect x="306" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="332" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.16" filter="url(#tinyGlow)" />
+        <rect x="336" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="362" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.17" filter="url(#tinyGlow)" />
+        <rect x="366" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="392" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.17" filter="url(#tinyGlow)" />
+        <rect x="396" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="422" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.18" filter="url(#tinyGlow)" />
+        <rect x="426" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="452" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.18" filter="url(#tinyGlow)" />
+        <rect x="456" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="482" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.19" filter="url(#tinyGlow)" />
+        <rect x="486" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="512" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.19" filter="url(#tinyGlow)" />
+        <rect x="516" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="542" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.20" filter="url(#tinyGlow)" />
+        <rect x="546" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="572" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.20" filter="url(#tinyGlow)" />
+        <rect x="576" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="602" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.21" filter="url(#tinyGlow)" />
+        <rect x="606" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="632" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.21" filter="url(#tinyGlow)" />
+        <rect x="636" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="662" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.22" filter="url(#tinyGlow)" />
+        <rect x="666" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="692" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.22" filter="url(#tinyGlow)" />
+        <rect x="696" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="722" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.23" filter="url(#tinyGlow)" />
+        <rect x="726" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="752" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.24" filter="url(#tinyGlow)" />
+        <rect x="756" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="782" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.24" filter="url(#tinyGlow)" />
+        <rect x="786" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="812" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.25" filter="url(#tinyGlow)" />
+        <rect x="816" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="842" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.25" filter="url(#tinyGlow)" />
+        <rect x="846" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="872" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.26" filter="url(#tinyGlow)" />
+        <rect x="876" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="902" y="452" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.26" filter="url(#tinyGlow)" />
+        <rect x="906" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="932" y="452" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.27" filter="url(#tinyGlow)" />
+        <rect x="936" y="456" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="962" y="445" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.27" filter="url(#tinyGlow)" />
+        <rect x="966" y="449" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="992" y="438" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.28" filter="url(#tinyGlow)" />
+        <rect x="996" y="442" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1022" y="431" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.28" filter="url(#tinyGlow)" />
+        <rect x="1026" y="435" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1052" y="424" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.29" filter="url(#tinyGlow)" />
+        <rect x="1056" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1082" y="424" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.29" filter="url(#tinyGlow)" />
+        <rect x="1086" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1112" y="424" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.30" filter="url(#tinyGlow)" />
+        <rect x="1116" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1142" y="424" width="16" height="16" rx="4" fill="#22d3ee" opacity="0.30" filter="url(#tinyGlow)" />
+        <rect x="1146" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1172" y="424" width="16" height="16" rx="4" fill="#1f6feb" opacity="0.31" filter="url(#tinyGlow)" />
+        <rect x="1176" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1202" y="424" width="16" height="16" rx="4" fill="#7df9ff" opacity="0.31" filter="url(#tinyGlow)" />
+        <rect x="1206" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1232" y="424" width="16" height="16" rx="4" fill="#7df9ff" opacity="0.32" filter="url(#tinyGlow)" />
+        <rect x="1236" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1262" y="424" width="16" height="16" rx="4" fill="#7df9ff" opacity="0.32" filter="url(#tinyGlow)" />
+        <rect x="1266" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1292" y="424" width="16" height="16" rx="4" fill="#7df9ff" opacity="0.33" filter="url(#tinyGlow)" />
+        <rect x="1296" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+        <rect x="1322" y="424" width="16" height="16" rx="4" fill="#7df9ff" opacity="0.33" filter="url(#tinyGlow)" />
+        <rect x="1326" y="428" width="8" height="8" rx="2" fill="#0D1117" opacity="0.22" />
+      <g transform="translate(1360 423)" filter="url(#strongGlow)">
+        <path d="M0 6 C14 -8 34 -4 45 8 C31 22 12 21 0 6Z" fill="#7df9ff" opacity="0.95" />
+        <circle cx="31" cy="5" r="2" fill="#0D1117" />
+        <circle cx="34" cy="12" r="2" fill="#0D1117" />
       </g>
-      <circle cx="1101" cy="418" r="4" fill="#2fffd2" filter="url(#strongGlow)" />
-      <circle cx="1101" cy="418" r="14" fill="none" stroke="#2fffd2" opacity="0.35" />
-      <circle cx="708" cy="438" r="3.2" fill="#7df9ff" filter="url(#strongGlow)" />
-      <circle cx="708" cy="438" r="12" fill="none" stroke="#7df9ff" opacity="0.25" />
-      <text x="94" y="424" class="snakeLabel">GitHub contribution snake: luminous trail across shipped systems</text>
     </g>
-
-  <g opacity="0.22">
-    <text x="1280" y="36" class="smallMono">01001101 01000101 01010010 01001110</text>
-    <text x="1090" y="384" class="smallMono">git branch --graph --systems</text>
-    <text x="42" y="32" class="smallMono">deploy::vercel status::green</text>
-  </g>
 </svg>
